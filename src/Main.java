@@ -1,5 +1,17 @@
+import java.util.Scanner;
+import java.util.Random;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("GERADOR DE SENHA");
+
+        Random random = new Random();
+
+        System.out.println(random);
+
+
+
+
     }
 }
